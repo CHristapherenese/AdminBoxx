@@ -1,0 +1,35 @@
+{
+    "name": "iRacing Admin KeyPad",
+    "description": "",
+    "dependencies": {
+        "adafruit-neotrellis-m4-express": "*",
+        "keyboard": "*",
+        "gamepad": "*",
+        "buttonpad": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.13.64",
+        "tag": "v0.13.64",
+        "commits": "https://github.com/microsoft/pxt-maker/commits/b86c87220dda3364e856c4ebf56fd8084ccd1481",
+        "target": "0.15.16",
+        "pxt": "6.6.7",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "PXT_GC_CHECKS": 1
+        }
+    }
+}
